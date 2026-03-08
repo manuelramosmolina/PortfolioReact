@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "tipo": "formacion",
+    "cargo": "Desarrollo de Aplicaciones Web en IES Al-Ándalus (DAW)",
+    "lugar": "Grado Superior - 2º curso",
+    "fechas": "2024 - 2026",
+    "detalles": "Estudiante de 2º año del grado superior de Desarrollo de Aplicaciones Web. Formación orientada a desarrollo front-end y back-end con tecnologías como Java, JavaScript, React, PHP, Laravel, SQL y Git."
+  },
+  {
+    "id": 2,
+    "tipo": "laboral",
+    "cargo": "Buscando primera oportunidad como Desarrollador Junior",
+    "lugar": "Disponibilidad para practicas o primer empleo",
+    "fechas": "Actualidad",
+    "detalles": "Motivado para iniciar mi trayectoria profesional en desarrollo web, aportar valor desde el primer dia y seguir creciendo tecnicamente en entornos reales."
+  }
+]

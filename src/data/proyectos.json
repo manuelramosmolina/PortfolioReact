@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "titulo": "Blog Desarrollo Web",
+    "descripcion": "Ejercicio sobre análisis web del módulo HLC de DAW.",
+    "imagen": "/images/web-blog.jpg",
+    "enlace": "https://github.com/manuelramosmolina/WebBlog_HLC",
+    "etiquetas": ["HTML", "Análisis Web", "Posicionamiento Web"]
+  },
+  {
+    "id": 2,
+    "titulo": "Desarrollo Web Cliente",
+    "descripcion": "Ejercicio 3 de la tarea online 1 del módulo DWEC.",
+    "imagen": "/images/tarea-1-dwec.jpg",
+    "enlace": "https://github.com/manuelramosmolina/Tarea_1_DWEC",
+    "etiquetas": ["HTML", "JavaScript", "Front-end"]
+  },
+  {
+    "id": 3,
+    "titulo": "Librería Web",
+    "descripcion": "Tarea de Diseño de Interfaces Web (DIW), unidad 6 de la tercera evaluación.",
+    "imagen": "/images/libreria-web.jpg",
+    "enlace": "https://github.com/manuelramosmolina/Libreria_Web",
+    "etiquetas": ["HTML", "CSS", "Diseño Web"]
+  },
+  {
+    "id": 4,
+    "titulo": "Despliegue Web",
+    "descripcion": "Tarea online del tema 5 de Despliegue de Aplicaciones Web.",
+    "imagen": "/images/bookrmm.jpg",
+    "enlace": "https://github.com/manuelramosmolina/bookRMM",
+    "etiquetas": ["HTML", "Despliegue", "GIT"]
+  },
+  {
+    "id": 5,
+    "titulo": "Sistema de Matriculación",
+    "descripcion": "Aplicación Java para la gestión de matrículas y alumnos.",
+    "imagen": "/images/matricula.jpg",
+    "enlace": "https://github.com/manuelramosmolina/SistemaMatriculacion_v0",
+    "etiquetas": ["Java", "POO", "Gestión"]
+  },
+  {
+    "id": 6,
+    "titulo": "Juego de Damas",
+    "descripcion": "Implementación del juego de damas en Java con interfaz gráfica.",
+    "imagen": "/images/damas.jpg",
+    "enlace": "https://github.com/manuelramosmolina/Damas",
+    "etiquetas": ["Java", "Juegos", "POO"]
+  }
+]
