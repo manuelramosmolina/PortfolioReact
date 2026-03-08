@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { ProveedorTema } from './context/ContextoTema';
 import Encabezado from './components/Encabezado';
 import Navegacion from './components/Navegacion';
@@ -11,7 +11,7 @@ import './App.css';
 function Aplicacion() {
   return (
     <ProveedorTema>
-      <Router basename={import.meta.env.BASE_URL}>
+      <Router>
         <div className="App">
           <Encabezado />
           <Navegacion />
