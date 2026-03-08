@@ -11,7 +11,7 @@ import './App.css';
 function Aplicacion() {
   return (
     <ProveedorTema>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
         <div className="App">
           <Encabezado />
           <Navegacion />

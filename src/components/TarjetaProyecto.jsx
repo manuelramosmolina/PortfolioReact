@@ -18,6 +18,9 @@ const IconoExpandir = styled((props) => {
 function TarjetaProyecto({ titulo, descripcion, imagen, enlace, etiquetas }) {
   const [expandido, setExpandido] = useState(false);
   const [estaSobre, setEstaSobre] = useState(false);
+  const rutaImagen = imagen && imagen.startsWith('/')
+    ? `${import.meta.env.BASE_URL}${imagen.slice(1)}`
+    : imagen;
 
   const manejarExpandir = () => {
     setExpandido(!expandido);
@@ -53,7 +56,7 @@ function TarjetaProyecto({ titulo, descripcion, imagen, enlace, etiquetas }) {
         <CardMedia
           component="img"
           height="200"
-          image={imagen}
+          image={rutaImagen}
           alt={titulo}
           sx={{
             objectFit: 'cover',

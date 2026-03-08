@@ -17,6 +17,10 @@ function LandingPage() {
     email: 'molinainformatico@gmail.com',
   };
 
+  const rutaAvatar = infoPersonal.avatar.startsWith('/')
+    ? `${import.meta.env.BASE_URL}${infoPersonal.avatar.slice(1)}`
+    : infoPersonal.avatar;
+
   const habilidades = [
     { name: 'Desarrollo Web', level: 85 },
     { name: 'Java', level: 82 },
@@ -55,7 +59,7 @@ function LandingPage() {
                   {/* Foto */}
                   <Avatar
                     variant="rounded"
-                    src={infoPersonal.avatar}
+                    src={rutaAvatar}
                     alt={infoPersonal.name}
                     sx={{
                       width: 240,
