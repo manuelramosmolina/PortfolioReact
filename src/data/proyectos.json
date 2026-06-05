@@ -9,11 +9,11 @@
   },
   {
     "id": 2,
-    "titulo": "Desarrollo Web Cliente",
-    "descripcion": "Ejercicio 3 de la tarea online 1 del módulo DWEC.",
+    "titulo": "PortfolioReact",
+    "descripcion": "Proyecto de la asignatura DWEC. Aplicación hecha con React para mostrar un curriculum vitae.",
     "imagen": "/images/tarea-1-dwec.jpg",
-    "enlace": "https://github.com/manuelramosmolina/Tarea_1_DWEC",
-    "etiquetas": ["HTML", "JavaScript", "Front-end"]
+    "enlace": "https://github.com/manuelramosmolina/PortfolioReact",
+    "etiquetas": ["React", "Curriculum", "Frontend"]
   },
   {
     "id": 3,
@@ -25,10 +25,10 @@
   },
   {
     "id": 4,
-    "titulo": "Despliegue Web",
-    "descripcion": "Tarea online del tema 5 de Despliegue de Aplicaciones Web.",
+    "titulo": "Despliegue Web - GitHub",
+    "descripcion": "Tarea online de Despliegue de Aplicaciones Web.",
     "imagen": "/images/bookrmm.jpg",
-    "enlace": "https://github.com/manuelramosmolina/bookRMM",
+    "enlace": "https://github.com/manuelramosmolina/TareaHLC",
     "etiquetas": ["HTML", "Despliegue", "GIT"]
   },
   {
