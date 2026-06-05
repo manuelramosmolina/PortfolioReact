@@ -1,0 +1,7 @@
+{
+  "Frontend": ["HTML5", "CSS3", "JavaScript", "React", "Vite", "TypeScript"],
+  "Backend": ["Java", "PHP", "Laravel", "Node.js", "APIs REST"],
+  "Bases de datos": ["SQL", "MySQL", "SQLite"],
+  "Sistemas y DevOps": ["Linux", "Docker", "AWS", "Azure"],
+  "Herramientas": ["Git", "GitHub", "VS Code", "Postman"]
+}
