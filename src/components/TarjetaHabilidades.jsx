@@ -55,13 +55,21 @@ function TarjetaHabilidades() {
 
       <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
         {habilidades.map((hab) => (
-          <Box key={hab} sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+          <Box
+            key={hab}
+            sx={{
+              display: 'flex',
+              alignItems: 'flex-start',   // ← CORRECCIÓN CLAVE
+              gap: 1,
+            }}
+          >
             <Box
               sx={{
                 width: 10,
                 height: 10,
                 borderRadius: '50%',
                 backgroundColor: '#42a5f5',
+                mt: '4px', // opcional: mejora aún más la alineación visual
               }}
             />
             <Typography sx={{ fontSize: '1rem' }}>{hab}</Typography>
@@ -69,11 +77,20 @@ function TarjetaHabilidades() {
         ))}
       </Box>
 
-      <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', mt: 3 }}>
+      <Box
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          mt: 3,
+        }}
+      >
         <IconButton component={RouterLink} to="/experience" size="large">
           <School sx={{ fontSize: '2rem', color: '#42a5f5' }} />
         </IconButton>
-        <Typography sx={{ fontSize: '0.9rem', mt: 0.5 }}>Experiencia</Typography>
+        <Typography sx={{ fontSize: '0.9rem', mt: 0.5 }}>
+          Experiencia
+        </Typography>
       </Box>
     </Box>
   );

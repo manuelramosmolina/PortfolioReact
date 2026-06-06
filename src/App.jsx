@@ -6,6 +6,7 @@ import PiePagina from './components/PiePagina';
 import LandingPage from './pages/LandingPage';
 import PortfolioPage from './pages/PortfolioPage';
 import ExperiencePage from './pages/ExperiencePage';
+import ScrollToTop from './ScrollToTop';
 import './App.css';
 
 function Aplicacion() {
@@ -15,7 +16,10 @@ function Aplicacion() {
         <div className="App">
           <Encabezado />
           <Navegacion />
+
           <main className="main-content">
+            <ScrollToTop />
+
             <Routes>
               <Route path="/" element={<LandingPage />} />
               <Route path="/portfolio" element={<PortfolioPage />} />
@@ -23,6 +27,7 @@ function Aplicacion() {
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
           </main>
+
           <PiePagina />
         </div>
       </Router>
@@ -31,3 +36,4 @@ function Aplicacion() {
 }
 
 export default Aplicacion;
+
