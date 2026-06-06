@@ -44,7 +44,6 @@ function TarjetaProyecto({ titulo, descripcion, imagen, enlace, etiquetas }) {
 
         borderRadius: 2,
 
-        // ⭐ FONDO COHERENTE CON MODO CLARO/OSCURO
         backgroundColor: (theme) =>
           theme.palette.mode === 'dark' ? '#1e1e1e' : '#f0f0f0',
 

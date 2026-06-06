@@ -49,6 +49,7 @@ function TarjetaNombre() {
           margin: '0 auto',
           mb: 2,
           border: '3px solid #42a5f5',
+          borderRadius: '8px',
         }}
       />
 
@@ -81,11 +82,11 @@ function TarjetaNombre() {
       </Box>
 
       <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2 }}>
-        <IconButton href="https://github.com" target="_blank" sx={{ color: '#42a5f5' }}>
+        <IconButton href="https://github.com/manuelramosmolina" target="_blank" sx={{ color: '#42a5f5' }}>
           <GitHub />
         </IconButton>
 
-        <IconButton href="https://linkedin.com" target="_blank" sx={{ color: '#42a5f5' }}>
+        <IconButton href="https://www.linkedin.com/in/manuelramosmolina/" target="_blank" sx={{ color: '#42a5f5' }}>
           <LinkedIn />
         </IconButton>
 
