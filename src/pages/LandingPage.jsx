@@ -9,8 +9,8 @@ function LandingPage() {
     <Container maxWidth="lg" sx={{ py: 4 }}>
       <SeccionTresColumnas>
         <TarjetaNombre />
-        <TarjetaHabilidades />
         <TarjetaTecnologias />
+        <TarjetaHabilidades />
       </SeccionTresColumnas>
     </Container>
   );

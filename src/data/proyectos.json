@@ -10,7 +10,7 @@
   {
     "id": 2,
     "titulo": "PortfolioReact",
-    "descripcion": "Proyecto de la asignatura DWEC. Aplicación hecha con React para mostrar un curriculum vitae.",
+    "descripcion": "Proyecto de la asignatura DWEC. Aplicación hecha con React para mostrar un curriculum vitae. Este proyecto que estas viendo.",
     "imagen": "/images/tarea-1-dwec.jpg",
     "enlace": "https://github.com/manuelramosmolina/PortfolioReact",
     "etiquetas": ["React", "Curriculum", "Frontend"]
