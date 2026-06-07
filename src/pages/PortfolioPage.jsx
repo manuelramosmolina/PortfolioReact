@@ -41,6 +41,7 @@ function PaginaProyectos() {
                 descripcion={proyecto.descripcion}
                 imagen={proyecto.imagen}
                 enlace={proyecto.enlace}
+                enlaceWeb={proyecto.enlaceWeb}
                 etiquetas={proyecto.etiquetas}
               />
             </Grid>

@@ -1,18 +1,21 @@
 [
   {
-    "id": 1,
-    "titulo": "Blog Desarrollo Web",
-    "descripcion": "Proyecto sobre análisis web del módulo Posicionamiento web.",
-    "imagen": "/images/web-blog.jpg",
-    "enlace": "https://github.com/manuelramosmolina/WebBlog_HLC",
-    "etiquetas": ["HTML", "Análisis Web", "Posicionamiento Web"]
-  },
+  "id": 1,
+  "titulo": "Blog Desarrollo Web",
+  "descripcion": "Proyecto sobre análisis web del módulo Posicionamiento web.",
+  "imagen": "/images/web-blog.jpg",
+  "enlace": "https://github.com/manuelramosmolina/WebBlog_HLC",
+  "enlaceWeb": "https://manuelramosmolina.github.io/WebBlog_HLC/",
+  "etiquetas": ["HTML", "Análisis Web", "Posicionamiento Web"]
+}
+,
   {
     "id": 2,
     "titulo": "PortfolioReact",
     "descripcion": "Proyecto de Entorno Cliente. Aplicación en React. (Esta misma web).",
     "imagen": "/images/tarea-1-dwec.jpg",
     "enlace": "https://github.com/manuelramosmolina/PortfolioReact",
+    "enlaceWeb": "https://manuelramosmolina.github.io/PortfolioReact/#/",
     "etiquetas": ["React", "Componentes", "Frontend"]
   },
   {
@@ -21,6 +24,7 @@
     "descripcion": "Proyecto de Diseño de Interfaces Web.",
     "imagen": "/images/libreria-web.jpg",
     "enlace": "https://github.com/manuelramosmolina/Libreria_Web",
+    "enlaceWeb": "https://manuelramosmolina.github.io/Libreria_Web/",
     "etiquetas": ["HTML", "CSS", "Diseño Web"]
   },
   {
@@ -29,6 +33,7 @@
     "descripcion": "Proyecto de Despliegue de Aplicaciones Web.",
     "imagen": "/images/bookrmm.jpg",
     "enlace": "https://github.com/manuelramosmolina/TareaHLC",
+    "enlaceWeb": "https://manuelramosmolina.github.io/TareaHLC/",
     "etiquetas": ["HTML", "Despliegue", "GIT"]
   },
   {

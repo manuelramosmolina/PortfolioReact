@@ -15,7 +15,7 @@ const IconoExpandir = styled((props) => {
   }),
 }));
 
-function TarjetaProyecto({ titulo, descripcion, imagen, enlace, etiquetas }) {
+function TarjetaProyecto({ titulo, descripcion, imagen, enlace, enlaceWeb, etiquetas }) {
   const [expandido, setExpandido] = useState(false);
   const [estaSobre, setEstaSobre] = useState(false);
 
@@ -35,18 +35,14 @@ function TarjetaProyecto({ titulo, descripcion, imagen, enlace, etiquetas }) {
         flexDirection: 'column',
         position: 'relative',
         overflow: 'hidden',
-
         transition: 'all 0.3s ease-in-out',
         transform: estaSobre ? 'translateY(-8px)' : 'translateY(0)',
         boxShadow: estaSobre
           ? '0 8px 24px rgba(0,0,0,0.3)'
           : '0 4px 20px rgba(0,0,0,0.2)',
-
         borderRadius: 2,
-
         backgroundColor: (theme) =>
           theme.palette.mode === 'dark' ? '#1e1e1e' : '#f0f0f0',
-
         '&::before': {
           content: '""',
           position: 'absolute',
@@ -66,9 +62,7 @@ function TarjetaProyecto({ titulo, descripcion, imagen, enlace, etiquetas }) {
           height="200"
           image={rutaImagen}
           alt={titulo}
-          sx={{
-            objectFit: 'cover',
-          }}
+          sx={{ objectFit: 'cover' }}
         />
       )}
 
@@ -82,16 +76,25 @@ function TarjetaProyecto({ titulo, descripcion, imagen, enlace, etiquetas }) {
           justifyContent: 'center',
         }}
       >
+
         <Typography
           gutterBottom
           variant="h5"
-          component="h2"
+          component={enlaceWeb ? "a" : "h2"}
+          href={enlaceWeb || undefined}
+          target={enlaceWeb ? "_blank" : undefined}
+          rel={enlaceWeb ? "noopener noreferrer" : undefined}
           sx={{
             fontWeight: 700,
             color: (theme) => (theme.palette.mode === 'dark' ? 'white' : '#1976d2'),
             mb: 2,
             fontSize: '1.3rem',
             textAlign: 'center',
+            textDecoration: 'none',
+            cursor: enlaceWeb ? "pointer" : "default",
+            '&:hover': enlaceWeb
+              ? { textDecoration: 'underline', color: '#42a5f5' }
+              : {},
           }}
         >
           {titulo}
